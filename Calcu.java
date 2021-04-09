@@ -4,7 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionListener;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
-import javax.swing.*;// LLAMA A TODAS LAS CLASES
+import javax.swing.*;
 import Calculadora.llamado;
 public class Calcu {
  JFrame frame;
@@ -257,7 +257,7 @@ public class Calcu {
    });
   
   frame.setSize(200, 200);
-  //frame.setSize(170, 158);// TAMAÑO EL FORMULARIO O FRAME
+  //frame.setSize(170, 158);// TAMAÃ‘O EL FORMULARIO O FRAME
   frame.setResizable(false);//FRAME ESTATICO
   frame.setLocationRelativeTo(frame.getParent());
   frame.setVisible(true);//PERMITE QUE EL FORMULARIO SE VISIBLE
