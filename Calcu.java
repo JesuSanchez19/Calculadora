@@ -257,10 +257,9 @@ public class Calcu {
    });
   
   frame.setSize(200, 200);
-  //frame.setSize(170, 158);// TAMAÑO EL FORMULARIO O FRAME
-  frame.setResizable(false);//FRAME ESTATICO
+  frame.setResizable(false);
   frame.setLocationRelativeTo(frame.getParent());
-  frame.setVisible(true);//PERMITE QUE EL FORMULARIO SE VISIBLE
+  frame.setVisible(true);
   
   
   
